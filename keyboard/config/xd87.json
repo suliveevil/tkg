@@ -1,0 +1,245 @@
+{
+	"name": "XD87",
+	"description": "XD87 Keyboard ",
+	"max_layers": 8,
+	"max_fns": 32,
+	"eep_size": 1024,
+	"eep_start": 15,
+	"matrix_rows": 6,
+	"matrix_cols": 17,
+	"physical_rows": 6,
+	"matrix_map": {
+		"0,0": { "row": 0, "col": 0 },
+		"1,0": { "row": 0, "col": 1 },
+		"2,0": { "row": 0, "col": 2 },
+		"3,0": { "row": 0, "col": 3 },
+		"4,0": { "row": 0, "col": 4 },
+		"5,0": { "row": 0, "col": 5 },
+
+		"6.5,0": { "row": 0, "col": 6 },
+		"7.5,0": { "row": 0, "col": 7 },
+		"8.5,0": { "row": 0, "col": 8 },
+		"9.5,0": { "row": 0, "col": 9 },
+
+		"11,0": { "row": 0, "col": 10 },
+		"12,0": { "row": 0, "col": 11 },
+		"13,0": { "row": 0, "col": 12 },
+		"14,0": { "row": 0, "col": 13 },
+
+		"15.25,0": { "row": 0, "col": 14 },
+		"16.25,0": { "row": 0, "col": 15 },
+		"17.25,0": { "row": 0, "col": 16 },
+		
+		"0,1.5": { "row": 1, "col": 0 },
+		"1,1.5": { "row": 1, "col": 1 },
+		"2,1.5": { "row": 1, "col": 2 },
+		"3,1.5": { "row": 1, "col": 3 },
+		"4,1.5": { "row": 1, "col": 4 },
+		"5,1.5": { "row": 1, "col": 5 },
+		"6,1.5": { "row": 1, "col": 6 },
+		"7,1.5": { "row": 1, "col": 7 },
+		"8,1.5": { "row": 1, "col": 8 },
+		"9,1.5": { "row": 1, "col": 9 },
+		"10,1.5": { "row": 1, "col": 10 },
+		"11,1.5": { "row": 1, "col": 11 },
+		"12,1.5": { "row": 1, "col": 12 },
+		"13,1.5": { "row": 1, "col": 13 },
+		"13,1.5,2": { "row": 1, "col": 13 },
+		"14,1.5": { "row": 3, "col": 14 },
+
+		"15.25,1.5": { "row": 1, "col": 14 },
+		"16.25,1.5": { "row": 1, "col": 15 },
+		"17.25,1.5": { "row": 1, "col": 16 },
+
+        "0,2.5,1.5": { "row": 2, "col": 0 },
+		"1.5,2.5": { "row": 2, "col": 1 },
+		"2.5,2.5": { "row": 2, "col": 2 },
+		"3.5,2.5": { "row": 2, "col": 3 },
+		"4.5,2.5": { "row": 2, "col": 4 },
+		"5.5,2.5": { "row": 2, "col": 5 },
+		"6.5,2.5": { "row": 2, "col": 6 },
+		"7.5,2.5": { "row": 2, "col": 7 },
+		"8.5,2.5": { "row": 2, "col": 8 },
+		"9.5,2.5": { "row": 2, "col": 9 },
+		"10.5,2.5": { "row": 2, "col": 10 },
+		"11.5,2.5": { "row": 2, "col": 11 },
+		"12.5,2.5": { "row": 2, "col": 12 },
+		"13.5,2.5,1.5": { "row": 2, "col": 13 },
+		"13.5,2.5,1.5,2,13.75,1.25": { "row": 3, "col": 13 },
+
+        "15.25,2.5": { "row": 2, "col": 14 },
+        "16.25,2.5": { "row": 2, "col": 15 },
+        "17.25,2.5": { "row": 2, "col": 16 },
+
+		"0,3.5,1.75": { "row": 3, "col": 0 },
+		"1.75,3.5": { "row": 3, "col": 1 },
+		"2.75,3.5": { "row": 3, "col": 2 },
+		"3.75,3.5": { "row": 3, "col": 3 },
+		"4.75,3.5": { "row": 3, "col": 4 },
+		"5.75,3.5": { "row": 3, "col": 5 },
+		"6.75,3.5": { "row": 3, "col": 6 },
+		"7.75,3.5": { "row": 3, "col": 7 },
+		"8.75,3.5": { "row": 3, "col": 8 },
+		"9.75,3.5": { "row": 3, "col": 9 },
+		"10.75,3.5": { "row": 3, "col": 10 },
+		"11.75,3.5": { "row": 3, "col": 11 },
+		"12.75,3.5": { "row": 3, "col": 12 },
+		"12.75,3.5,2.25": { "row": 3, "col": 13 },
+		"13.75,3.5,1.25": { "row": 3, "col": 13 },
+
+		
+		"0,4.5,2.25": { "row": 4, "col": 0 },
+		"0,4.5,1.25": { "row": 4, "col": 0 },
+
+		"1.25,4.5": { "row": 4,  "col": 1 },
+		"2.25,4.5": { "row": 4,  "col": 2 },
+		"3.25,4.5": { "row": 4,  "col": 3 },
+		"4.25,4.5": { "row": 4,  "col": 4 },
+		"5.25,4.5": { "row": 4,  "col": 5 },
+		"6.25,4.5": { "row": 4,  "col": 6 },
+		"7.25,4.5": { "row": 4,  "col": 7 },
+		"8.25,4.5": { "row": 4,  "col": 8 },
+		"9.25,4.5": { "row": 4,  "col": 9 },
+		"10.25,4.5": { "row": 4,  "col": 10 },
+		"11.25,4.5": { "row": 4,  "col": 11 },
+
+		"12.25,4.5,2.75": { "row": 4, "col": 12 },
+		"12.25,4.5,1.75": { "row": 4, "col": 12 },
+		"14,4.5": { "row": 4,  "col": 13 },
+
+		"15.25,4.5": { "row": 4, "col": 14 },
+        "16.25,4.5": { "row": 4, "col": 15 },
+        "17.25,4.5": { "row": 4, "col": 16 },
+
+		
+		"0,5.5,1.25": { "row": 5, "col": 0 },
+		"0,5.5,1.5": { "row": 5, "col": 0 },
+		"1.25,5.5,1.25": { "row": 5, "col": 1 },
+		"1.5,5.5,1.5": { "row": 5, "col": 1 },
+		"1.5,5.5": { "row": 5, "col": 1 },
+		"2.5,5.5,1.25": { "row": 5, "col": 2 },
+		"2.5,5.5,1.5": { "row": 5, "col": 2 },
+		"4,5.5,3": { "row": 5, "col": 5 },
+
+		"3.75,5.5,6.25": { "row": 5, "col": 8 },
+		"3,5.5,7": { "row": 5, "col": 8 },
+		"4,5.5,7": { "row": 5, "col": 8 },
+		"4,5.5,6": { "row": 5, "col": 8 },
+		"7,5.5,3": { "row": 5, "col": 8 },
+
+		"10,5.5,1.25": { "row": 5, "col": 10 },
+		"10,5.5": { "row": 5, "col": 10 },
+
+		"11.25,5.5,1.25": { "row": 5, "col": 11 },
+		"11,5.5,1.5": { "row": 5, "col": 11 },
+
+		"12.5,5.5,1.25": { "row": 5, "col": 12 },
+		"12.5,5.5": { "row": 5, "col": 12 },
+
+		
+		"13.75,5.5,1.25": { "row": 5, "col": 13 },
+		"13.5,5.5,1.5": { "row": 5, "col": 13 },
+
+		"15.25,5.5": { "row": 5, "col": 14 },
+        "16.25,5.5": { "row": 5, "col": 15 },
+        "17.25,5.5": { "row": 5, "col": 16 }
+	},
+	"default_layer_mode": "simple",
+	"default_layers": "[\"Esc\",\"Fn10\",\"F1\",\"F2\",\"F3\",\"F4\",{x:0.5},\"F5\",\"F6\",\"F7\",\"F8\",{x:0.5},\"F9\",\"F10\",\"F11\",\"F12\",{x:0.25},\"PrtSc\",\"Scroll Lock\",\"Pause\\nBreak\"],\r\n[{y:0.5},\"~\\n`\",\"!\\n1\",\"@\\n2\",\"#\\n3\",\"$\\n4\",\"%\\n5\",\"^\\n6\",\"&\\n7\",\"*\\n8\",\"(\\n9\",\")\\n0\",\"_\\n-\",\"+\\n=\",{t:\"#0f0e0e\",w:2},\"Backspace\",{x:0.25,t:\"#000000\"},\"Insert\",\"Home\",\"PgUp\"],\r\n[{w:1.5},\"Tab\",\"Q\",\"W\\n\\n\\n\\n\u2191\",\"E\",\"R\",\"T\",\"Y\",\"U\",\"I\",\"O\",\"P\",\"{\\n[\",\"}\\n]\",{w:1.5},\"|\\n\\\\\",{x:0.25},\"Delete\",\"End\",\"PgDn\"],\r\n[{w:1.75},\"Caps Lock\",\"A\\n\\n\\n\\n\u2190\",\"S\\n\\n\\n\\n\u2193\",\"D\\n\\n\\n\\n\u2192\",\"F\",\"G\",\"H\",\"J\",\"K\",\"L\",\":\\n;\",\"\\\"\\n'\",{w:2.25},\"Enter\"],\r\n[{w:2.25},\"LShift\",\"Z\",\"X\",\"C\\n\\n\\n\\nFn2\",\"V\\n\\n\\n\\nFn1\",\"B\\n\\n\\n\\nFn3\",\"N\\n\\n\\n\\nVolDn\",\"M\\n\\n\\n\\nVolUp\",\"<\\n,\\n\\n\\nMute\",\">\\n.\",\"?\\n\/\",{w:2.75},\"RShift\",{x:0.25},\"Fn8\",\"\u2191\\n\\n\\n\\nFn5\",\"Fn9\"],\r\n[{w:1.25},\"LCtrl\",{w:1.25},\"LWin\",{w:1.25},\"LAlt\",{w:6.25},\"Space\",{w:1.25},\"FN\",{w:1.25},\"RAlt\\n\\n\\n\\nFn10\",{w:1.25},\"App\",{w:1.25},\"RCtrl\",{x:0.25},\"\u2190\\n\\n\\n\\nFn6\",\"\u2193\\n\\n\\n\\nFn4\",\"\u2192\\n\\n\\n\\nFn7\"]",
+	"action_macros": [{
+		"name": "00",
+		"description": "Keypad 00",
+		"opt": []
+	}],
+	"action_functions": [{
+		"name": "Tricky Esc",
+		"description": "Pressing this key with shift key, you will get a ~(tilde)!",
+		"opt": []
+	},{
+		"name": "RGB LED",
+		"description": "Control RGB LEDs",
+		"opt": [
+			"Toggle", "Decrease Level", "Increase Level",
+			"Step", "Decrease Brightness", "Increase Brightness"
+		]
+	},{
+		"name": "Apple Fn",
+		"description": "Pressing directly: the key you selected, pressing with shift: Apple fn + the key you selected.",
+		"opt": [
+			"F1", "F2", "F3", "F4",
+			"F5", "F6", "F7", "F8",
+			"F9", "F10", "F11", "F12",
+			"F13", "F14", "F15", "F16"
+		]
+	}],
+	"led_count": 3,
+	"led_map": [{
+		"name": "Caps Lock",
+		"description": "",
+		"default": {
+			"value": "LEDMAP_ACTIVE_LOW",
+			"param": {
+				"binding": {
+					"value": "LEDMAP_BINDING_INDICATOR",
+					"param": {
+						"ind": "LEDMAP_CAPS_LOCK"
+					}
+				},
+				"backlight": 0
+			}
+		}
+	},{
+		"name": "Backlight",
+		"description": "",
+		"default": {
+			"value": "LEDMAP_ACTIVE_LOW",
+			"param": {
+				"binding": "LEDMAP_BINDING_NO",
+				"backlight": 1
+			}
+		}
+	},{
+		"name": "RGB Underglow",
+		"description": "",
+		"default": {
+			"value": "LEDMAP_ACTIVE_LOW",
+			"value": "LEDMAP_RGB_LED",
+			"param": {
+				"led_count": 16
+			}
+		}
+	}],
+	"led_additional_index": 0,
+	"additional": [{
+		"start": 9,
+		"size": 6,
+		"type": "word",
+		"data": []
+	}],
+	"bootloader": [{
+		"name": "DFU",
+		"mcu": "atmega32u4"
+	},{
+		"name": "WebUSB",
+		"mcu": "atmega32u4",
+		"vid": 65261,
+		"pid": 24672
+	},{
+		"name": "RawHID",
+		"mcu": "atmega32u4",
+		"vid": 65261,
+		"pid": 24672
+	},{
+		"name": "HID",
+		"mcu": "atmega32u4"
+	},{
+		"name": "Printer",
+		"printer_name": "Generic / Text Only"
+	},{
+		"name": "MassStorage",
+		"volume_label": "LUFA BOOT"
+	}],
+	"firmware": [{
+		"name": "No Console"
+	}]
+}
